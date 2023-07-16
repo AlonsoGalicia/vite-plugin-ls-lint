@@ -1,0 +1,26 @@
+{
+  "name": "vite-plugin-ls-lint",
+  "version": "1.0.1",
+  "description": "Vite plugin to use ls-lint in vite projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlonsoGalicia/vite-plugin-ls-lint.git"
+  },
+  "keywords": [
+    "vite plugin",
+    "vite ls-lint",
+    "ls-lint",
+    "ls-lint plugin",
+    "vue ls-lint"
+  ],
+  "author": "Alonso Galicia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlonsoGalicia/vite-plugin-ls-lint/issues"
+  },
+  "homepage": "https://github.com/AlonsoGalicia/vite-plugin-ls-lint#readme"
+}
