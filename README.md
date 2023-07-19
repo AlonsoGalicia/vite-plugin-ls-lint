@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img alt="vite-plugin-ls-lint logo" src="https://imgur.com/DjMjcR8.png" width="100" height="100">
 </p>
 
@@ -42,10 +42,23 @@
 ## 🚀 Quickstart
 
 1. Install with your favorite package manager:
-   - **pnpm** : `pnpm i vite-plugin-ls-lint`
-   - **npm** : `npm i vite-plugin-ls-lint`
+   - **pnpm** : `pnpm i vite-plugin-ls-lint --save-dev`
+   - **npm** : `npm i vite-plugin-ls-lint --save-dev`
  <br>
-
+  <div style="background-color: #f4f0ec; margin-left:4rem; padding:10px;">
+      <b>Note:</b>
+      <br>
+      You also need to install <b>ls-lint >= 2</b>, if you haven't already:
+      
+      npm i @ls-lint/ls-lint --save-dev
+  </div>
+  <div style="background-color: #f4f0ec; margin-left:4rem; padding:10px;">
+      🤙🏼Or install both with:
+      
+      npm i @ls-lint/ls-lint vite-plugin-ls-lint --save-dev
+  </div>
+ <br>
+ 
 2. Add the plugin into _**vite.config.js/ts**_:
 ```js
 import { defineConfig } from 'vite'

@@ -24,7 +24,6 @@ const lintFiles = (config) => {
 }
 
 module.exports = () => {
-  exec('npm i @ls-lint/ls-lint@2.0.1 --save-dev')
   const config = {
     hasErrors: true,
     successMessage: 'All files are linted 👌',

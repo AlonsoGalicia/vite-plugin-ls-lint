@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-ls-lint",
-  "version": "1.0.4",
+  "version": "1.0.5-md",
   "description": "Vite plugin to use ls-lint in vite projects",
   "main": "index.js",
   "scripts": {
